@@ -1,3 +1,5 @@
+# ES6-Classes-Mixin
+
 You can use function mix to extend your classes like this:
 
 ```Javascript

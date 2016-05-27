@@ -1,5 +1,5 @@
 {
-  "name": "es6-class-mixin",
+  "name": "es6-classes-mixin",
   "version": "0.0.1",
   "description": "ES6 Class Mixin supported IE 9+",
   "main": "mixin.js",
