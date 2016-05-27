@@ -21,7 +21,7 @@ class NewClass extends mix(superclass, classA, [, classB, ...]){
     // Your code here
   }
 }
-
+```
 
 
 If you don't like this kind of mixin function, please check [MixWith.js](https://github.com/justinfagnani/mixwith.js) for more infomation.
