@@ -10,6 +10,7 @@ class NewClass extends mix(classA, classB [, classC, ...]){
     // Your code here
   }
 }
+```
 
 This function will automatically mix all your class in together and manage every `Constructor` for you. In other words, you're able to set your superclass as the first class.
 
@@ -21,7 +22,7 @@ class NewClass extends mix(superclass, classA, [, classB, ...]){
     // Your code here
   }
 }
-
+```
 
 
 If you don't like this kind of mixin function, please check [MixWith.js](https://github.com/justinfagnani/mixwith.js) for more infomation.

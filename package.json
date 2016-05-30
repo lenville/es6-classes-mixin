@@ -1,11 +1,11 @@
 {
   "name": "es6-classes-mixin",
   "version": "0.0.1",
-  "description": "ES6 Class Mixin supported IE 9+",
+  "description": "ES6 Classes Mixin supported IE 9+",
   "main": "mixin.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lenville/es6-class-mixin.git"
+    "url": "git+https://github.com/lenville/es6-classes-mixin.git"
   },
   "keywords": [
     "ES6",
@@ -15,7 +15,7 @@
   "author": "Lenville <lenville@gmail.com>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/lenville/es6-class-mixin/issues"
+    "url": "https://github.com/lenville/es6-classes-mixin/issues"
   },
-  "homepage": "https://github.com/lenville/es6-class-mixin#readme"
+  "homepage": "https://github.com/lenville/es6-classes-mixin#readme"
 }
