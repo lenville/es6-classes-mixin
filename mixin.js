@@ -13,8 +13,12 @@ export default function mix(...mixins) {
   }
 
   for (let i in mixins) {
-    copyProperties(Mix, mixins[i])
+    const mixin = mixins[i]
+
+    copyProperties(Mix, mixin)
+    copyProperties(Mix.prototype, mixin.prototype)
   }
+
 
   return Mix
 }
