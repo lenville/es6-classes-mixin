@@ -27,7 +27,7 @@ function copyProperties(target = {}, source = {}) {
   const ownPropertyNames = Object.getOwnPropertyNames(source)
 
   ownPropertyNames
-    .filter(key => !/(prototype|name|constructor)/.test(key))
+    .filter(key => !/^(prototype|name|constructor)$/.test(key))
     .forEach(key => {
       const desc = Object.getOwnPropertyDescriptor(source, key)
 
